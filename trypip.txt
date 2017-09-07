@@ -1,0 +1,59 @@
+pip install Django
+
+Django Explanation:
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source. Ridiculously fast.
+
+C:\Python27\Scripts>pip install Django
+Collecting Django
+  Downloading Django-1.11.5-py2.py3-none-any.whl (6.9MB)
+    100% |################################| 7.0MB 132kB/s
+Collecting pytz (from Django)
+  Using cached pytz-2017.2-py2.py3-none-any.whl
+Installing collected packages: pytz, Django
+Successfully installed Django-1.11.5 pytz-2017.2
+
+pip list
+provides a list of what is installed and the version:List installed packages, including editables.
+C:\Python27\Scripts>pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a
+format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+Django (1.11.5)
+pip (9.0.1)
+pytz (2017.2)
+setuptools (36.4.0)
+wheel (0.29.0)
+
+
+pip install Django (We know you already ran this one. What information do you see returned in terminal after this command?)
+C:\Python27\Scripts>pip install Django
+Requirement already satisfied: Django in c:\python27\lib\site-packages
+Requirement already satisfied: pytz in c:\python27\lib\site-packages (from Django)
+
+pip freeze (What's the difference between freeze and list?)
+
+pip freeze - Output installed packages in requirements format.
+pip list- List installed packages, including editables.
+
+First cd into your Desktop directory (cd ~/Desktop), then run this command: pip freeze > requirements.txt. What do you see when you ls? What's inside this file?
+C:\Users\troyt\Desktop>pip freeze requirements.txt
+Django==1.11.5
+pytz==2017.2
+
+pip uninstall Django
+pip show Django
+
+
+C:\Users\troyt\Desktop>pip show Django
+Name: Django
+Version: 1.11.5
+Summary: A high-level Python Web framework that encourages rapid developmen
+t and clean, pragmatic design.
+Home-page: https://www.djangoproject.com/
+Author: Django Software Foundation
+Author-email: foundation@djangoproject.com
+License: BSD
+Location: c:\python27\lib\site-packages
+Requires: pytz
+
+pip search Flask. This one might take a moment to execute.
+Displays a list of packages, version and definition for each. 
