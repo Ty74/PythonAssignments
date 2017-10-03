@@ -1,0 +1,62 @@
+C:\Python27>pip install Django
+Collecting Django
+  Using cached Django-1.11.5-py2.py3-none-any.whl
+Requirement already satisfied: pytz in c:\python27\lib\site-packages (from Django)
+Installing collected packages: Django
+Successfully installed Django-1.11.5
+
+
+C:\Python27>pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+astroid (1.5.3)
+backports.functools-lru-cache (1.4)
+colorama (0.3.9)
+configparser (3.5.0)
+Django (1.11.5)
+enum34 (1.1.6)
+isort (4.2.15)
+lazy-object-proxy (1.3.1)
+mccabe (0.6.1)
+pip (9.0.1)
+pylint (1.7.2)
+pytz (2017.2)
+setuptools (36.4.0)
+singledispatch (3.4.0.3)
+six (1.10.0)
+wheel (0.29.0)
+wrapt (1.10.11)
+
+
+pip freeze will display the output of installed packages in a requirements format 
+pip list will dispaly the output of installed packages including editables
+
+
+Pip freeze in requirements.txt format shown below this point: 
+
+astroid==1.5.3
+backports.functools-lru-cache==1.4
+colorama==0.3.9
+configparser==3.5.0
+Django==1.11.5
+enum34==1.1.6
+isort==4.2.15
+lazy-object-proxy==1.3.1
+mccabe==0.6.1
+pylint==1.7.2
+pytz==2017.2
+singledispatch==3.4.0.3
+six==1.10.0
+wrapt==1.10.11
+
+
+pip show Django shown below:
+ 
+Name: Django
+Version: 1.11.5
+Summary: A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+Home-page: https://www.djangoproject.com/
+Author: Django Software Foundation
+Author-email: foundation@djangoproject.com
+License: BSD
+Location: c:\python27\lib\site-packages
+Requires: pytz

@@ -28,3 +28,18 @@ def captureInfo(d):
     print dict(d)
     
 captureInfo(make_dict(arr1(),arr2()))
+
+
+def diction():
+    n={"hi":"Jack"}
+    for key in n.iteritems():
+          print key
+
+diction()
+
+def dictionII():
+    n={"hi":"Jack","great":"day"}
+    for key in n.items():
+          print key
+
+dictionII()
